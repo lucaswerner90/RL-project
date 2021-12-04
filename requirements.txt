@@ -1,0 +1,7 @@
+keras-rl
+gym
+numpy
+pillow
+torch
+tensorflow
+ipykernel
