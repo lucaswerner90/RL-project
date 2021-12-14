@@ -33,7 +33,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 env_name = 'SpaceInvaders-v0'
 env = gym.make(env_name)
 env = MaxAndSkipEnv(env, skip=8)
-env = gym.wrappers.Monitor(env, './videos/' + env_name, force=True, video_callable=lambda episode_id: True)
+env = gym.wrappers.Monitor(env, './videos/' + env_name, force=True, video_callable=lambda episode_id: episode_id%5==0)
 
 np.random.seed(123)
 env.seed(123)
