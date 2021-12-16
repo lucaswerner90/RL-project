@@ -1,2 +1,2 @@
-model_checkpoint_path: "dqn2_SpaceInvaders-v0_weights.h5f"
-all_model_checkpoint_paths: "dqn2_SpaceInvaders-v0_weights.h5f"
+model_checkpoint_path: "dqn7_SpaceInvaders-v0_weights.h5f"
+all_model_checkpoint_paths: "dqn7_SpaceInvaders-v0_weights.h5f"
