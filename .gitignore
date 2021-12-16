@@ -1,2 +1,7 @@
 .env
 old/*
+.venv
+models
+runs
+.devcontainer
+.vscode
