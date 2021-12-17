@@ -5,3 +5,6 @@ models
 runs
 .devcontainer
 .vscode
+dqn7b_SpaceInvaders-v0_log.json
+dqn7b_SpaceInvaders-v0_weights.h5f.data-00000-of-00001
+dqn7b_SpaceInvaders-v0_weights.h5f.index
